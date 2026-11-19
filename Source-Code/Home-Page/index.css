@@ -1,0 +1,17 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background: #f4f4f4; color: #172554; }
+header { background: #172554; color: white; padding: 20px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+nav a { color: white; text-decoration: none; margin: 0 12px; }
+nav a:hover { color: #93c5fd; }
+.hero { background: #2563eb; color: white; text-align: center; padding: 100px 20px; }
+.hero h1 { font-size: 42px; }
+.hero p { margin: 20px 0; font-size: 18px; }
+button { background: white; color: #2563eb; padding: 12px 25px; border: 0; border-radius: 5px; cursor: pointer; font-size: 16px; }
+button:hover { background: #dbeafe; }
+.products { text-align: center; padding: 50px 20px; }
+.products h2 { margin-bottom: 20px; }
+.card { display: inline-block; vertical-align: top; background: white; padding: 30px; margin: 15px; width: 280px; border-radius: 10px; box-shadow: 0 3px 10px #ccc; }
+.card h3, .card p { margin-bottom: 16px; }
+.card a { color: #2563eb; text-decoration: none; font-weight: bold; }
+footer { background: #172554; color: white; text-align: center; padding: 20px; }
+@media (max-width: 600px) { header { flex-direction: column; } .hero h1 { font-size: 32px; } }
